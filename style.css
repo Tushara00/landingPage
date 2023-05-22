@@ -82,3 +82,31 @@ img{
 }
 
 }
+
+.first-intro{
+  background:yellow;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.second-intro{
+  background:rgb(255, 153, 0);
+  flex-grow: 1;
+  text-align: center;
+}
+.introduce{
+  display:flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .introduce{
+    flex-direction: column;
+   
+    z-index: 2000;
+  }
+  .first-intro,
+  .second-intro{
+    width:100%;
+    
+  }
+}
