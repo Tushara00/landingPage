@@ -67,6 +67,7 @@ img{
 @media only screen and (max-width: 768px) {
   .container {
     display: block;
+    height:auto;
   }
   .first{
     width:100%;
